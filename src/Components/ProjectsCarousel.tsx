@@ -69,7 +69,6 @@ const BannerCard: React.FC<{
         alt=""
         eager={index === 0}
         rootMargin="0px"
-        threshold={0.25}
         width="1600"
         height="900"
         sizes="85vw"
