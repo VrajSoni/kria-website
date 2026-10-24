@@ -2,8 +2,8 @@ import {
   ProjectDetail,
   type ProjectImage,
 } from "./ProjectDetail";
-import GroundFloorPlan from "../../data/optimized/ProjectImages/RathodResidency/Ground Floor Plan.webp";
-import FirstFloorPlan from "../../data/optimized/ProjectImages/RathodResidency/First Floor Plan.webp";
+import GroundFloorPlan from "../../data/optimized/ProjectImages/RathodResidency/Ground Floor plan.webp";
+import FirstFloorPlan from "../../data/optimized/ProjectImages/RathodResidency/First Floor plan.webp";
 
 const images: ProjectImage[] = [
   {

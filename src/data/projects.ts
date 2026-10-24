@@ -1,7 +1,7 @@
 import ShilpSolitaireView from "./optimized/ProjectImages/ShilpSolitaire/CarouselImage.webp";
 import DecentResidencyView from "./optimized/ProjectImages/DecentResidency/Staircase_1.webp";
 import PujyaParkView from "./optimized/ProjectImages/PujyaPark/CarouselImage.webp";
-import RathodResidencyView from "./optimized/ProjectImages/RathodResidency/Ground Floor Plan.webp";
+import RathodResidencyView from "./optimized/ProjectImages/RathodResidency/Ground Floor plan.webp";
 import BhavitaParkView from "./optimized/ProjectImages/BhavitaPark/Main Image.webp";
 import ShilpSereneView from "./optimized/ProjectImages/ShilpSerene/Carousel.webp";
 import HouseOfNarrativesView from "./optimized/ProjectImages/HouseOfNarratives/Carousel.webp";
