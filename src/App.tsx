@@ -44,33 +44,40 @@ const projectComponents: Record<
   ),
   "4": lazy(() =>
     import(
+      "./Components/ProjectDetails/RathodResidency"
+    ).then((module) => ({
+      default: module.RathodResidency,
+    })),
+  ),
+  "5": lazy(() =>
+    import(
       "./Components/ProjectDetails/BhavitaPark"
     ).then((module) => ({
       default: module.BhavitaPark,
     })),
   ),
-  "5": lazy(() =>
+  "6": lazy(() =>
     import(
       "./Components/ProjectDetails/ShilpSolitaire"
     ).then((module) => ({
       default: module.ShilpSolitaire,
     })),
   ),
-  "6": lazy(() =>
+  "7": lazy(() =>
     import(
       "./Components/ProjectDetails/ShilpSerene"
     ).then((module) => ({
       default: module.ShilpSerene,
     })),
   ),
-  "7": lazy(() =>
+  "8": lazy(() =>
     import(
       "./Components/ProjectDetails/SiddhamCoolers"
     ).then((module) => ({
       default: module.SiddhamCoolers,
     })),
   ),
-  "8": lazy(() =>
+  "9": lazy(() =>
     import(
       "./Components/ProjectDetails/TheCourtyardHouse"
     ).then((module) => ({

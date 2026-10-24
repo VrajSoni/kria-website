@@ -38,7 +38,7 @@ export function ContactUs() {
               <p className="text-sm sm:text-lg">
                 Founders
               </p>
-              <p className="text-sm sm:text-lg">
+              <p className="text-sm sm:text-lg whitespace-nowrap">
                 Ar. Rinisha Jain, Ar. Kriti Khandelwal
               </p>
             </div>
