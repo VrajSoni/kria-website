@@ -9,8 +9,8 @@ import SiddhamCoolersView from "./optimized/ProjectImages/SiddhamCoolers/Carouse
 export const projectsData = [
   {
     id: 1,
-    title: "Pujya Park Society",
-    image: PujyaParkView,
+    title: "House of Narratives",
+    image: HouseOfNarrativesView,
   },
   {
     id: 2,
@@ -24,8 +24,8 @@ export const projectsData = [
   },
   {
     id: 4,
-    title: "House of Narratives",
-    image: HouseOfNarrativesView,
+    title: "Pujya Park Society",
+    image: PujyaParkView,
   },
   {
     id: 5,

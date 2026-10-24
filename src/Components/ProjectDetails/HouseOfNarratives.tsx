@@ -3,15 +3,27 @@ import {
   type ProjectImage,
 } from "./ProjectDetail";
 import MainImage from "../../data/optimized/ProjectImages/HouseOfNarratives/Carousel.webp";
-import Living1 from "../../data/optimized/ProjectImages/HouseOfNarratives/Living 02.webp";
-import Living2 from "../../data/optimized/ProjectImages/HouseOfNarratives/Living 03.webp";
-import Living3 from "../../data/optimized/ProjectImages/HouseOfNarratives/Living 04.webp";
-import Living4 from "../../data/optimized/ProjectImages/HouseOfNarratives/Living 05.webp";
-import Living5 from "../../data/optimized/ProjectImages/HouseOfNarratives/Living 06.webp";
-import Pooja1 from "../../data/optimized/ProjectImages/HouseOfNarratives/Pooja 07.webp";
-import Kitchen1 from "../../data/optimized/ProjectImages/HouseOfNarratives/08.webp";
-import Kitchen2 from "../../data/optimized/ProjectImages/HouseOfNarratives/09.webp";
-import Kitchen3 from "../../data/optimized/ProjectImages/HouseOfNarratives/10.webp";
+import Living1 from "../../data/optimized/ProjectImages/HouseOfNarratives/Living 1.webp";
+import Living2 from "../../data/optimized/ProjectImages/HouseOfNarratives/Living 2.webp";
+import Living3 from "../../data/optimized/ProjectImages/HouseOfNarratives/Living 3.webp";
+import Living4 from "../../data/optimized/ProjectImages/HouseOfNarratives/Living 4.webp";
+import Kitchen from "../../data/optimized/ProjectImages/HouseOfNarratives/Kitchen.webp";
+import DaughterRoom1 from "../../data/optimized/ProjectImages/HouseOfNarratives/Daughter room 1.webp";
+import DaughterRoom2 from "../../data/optimized/ProjectImages/HouseOfNarratives/Daughter room 2.webp";
+import DaughterRoom3 from "../../data/optimized/ProjectImages/HouseOfNarratives/Daughter room 3.webp";
+import DaughterRoom4 from "../../data/optimized/ProjectImages/HouseOfNarratives/Daughter room 4.webp";
+import Lobby from "../../data/optimized/ProjectImages/HouseOfNarratives/Lobby.webp";
+import DadajiRoom1 from "../../data/optimized/ProjectImages/HouseOfNarratives/Dadaji room 1.webp";
+import DadajiRoom2 from "../../data/optimized/ProjectImages/HouseOfNarratives/Dadaji room 2.webp";
+import DadajiRoom3 from "../../data/optimized/ProjectImages/HouseOfNarratives/Dadaji room 3.webp";
+import MasterBedroom1 from "../../data/optimized/ProjectImages/HouseOfNarratives/Master bedroom 1.webp";
+import MasterBedroom2 from "../../data/optimized/ProjectImages/HouseOfNarratives/Master bedroom 2.webp";
+import MasterBedroom3 from "../../data/optimized/ProjectImages/HouseOfNarratives/Master bedroom 3.webp"; 
+import Gazebo1 from "../../data/optimized/ProjectImages/HouseOfNarratives/Gazebo 1.webp";
+import Gazebo2 from "../../data/optimized/ProjectImages/HouseOfNarratives/Gazebo 2.webp";
+import Staircase1 from "../../data/optimized/ProjectImages/HouseOfNarratives/Staircase 1.webp";
+import Staircase2 from "../../data/optimized/ProjectImages/HouseOfNarratives/Staircase 2.webp";
+import Staircase3 from "../../data/optimized/ProjectImages/HouseOfNarratives/Staircase 3.webp";
 
 const images: ProjectImage[] = [
   {
@@ -22,8 +34,8 @@ const images: ProjectImage[] = [
   },
   {
     id: 2,
-    src: Living3,
-    alt: "Living 3",
+    src: Living1,
+    alt: "Living 1",
     span: 1,
   },
   {
@@ -34,9 +46,9 @@ const images: ProjectImage[] = [
   },
   {
     id: 4,
-    src: Living1,
-    alt: "Living 1",
-    span: 2,
+    src: Living3,
+    alt: "Living 3",
+    span: 1,
   },
   {
     id: 5,
@@ -46,27 +58,108 @@ const images: ProjectImage[] = [
   },
   {
     id: 6,
-    src: Living5,
-    alt: "Living 5",
+    src: Kitchen,
+    alt: "Kitchen",
+    span: 2,
+    aspectRatio: "aspect-[2/3]"
+  },
+  {
+    id: 7,
+    src: DaughterRoom1,
+    alt: "Daughter Room 1",
     span: 1,
   },
-  { id: 7, src: Pooja1, alt: "Pooja 1", span: 1 },
   {
     id: 8,
-    src: Kitchen1,
-    alt: "Kitchen 1",
-    span: 1,
+    src: DaughterRoom2,
+    alt: "Daughter Room 2",
+    span: 1,  
   },
   {
     id: 9,
-    src: Kitchen2,
-    alt: "Kitchen 2",
+    src: DaughterRoom3,
+    alt: "Daughter Room 3",
     span: 1,
   },
   {
     id: 10,
-    src: Kitchen3,
-    alt: "Kitchen 3",
+    src: DaughterRoom4,
+    alt: "Daughter Room 4",
+    span: 1,
+  },
+  {
+    id: 11,
+    src: Lobby,
+    alt: "Lobby",
+    span: 2,  
+    aspectRatio: "aspect-[2/3]"
+  },
+  {
+    id: 12,
+    src: DadajiRoom1,
+    alt: "Dadaji Room 1",
+    span: 1,
+  },
+  {
+    id: 13,
+    src: DadajiRoom3,
+    alt: "Dadaji Room 3",
+    span: 1,
+  },
+  {
+    id: 14,
+    src: DadajiRoom2,
+    alt: "Dadaji Room 2",
+    span: 2,
+    aspectRatio: "aspect-[2/3]"
+  },
+  {
+    id: 15,
+    src: MasterBedroom1,
+    alt: "Master Bedroom 1",
+    span: 2,
+  },
+  {
+    id: 16,
+    src: MasterBedroom2,
+    alt: "Master Bedroom 2",
+    span: 1,
+  },
+  {
+    id: 17,
+    src: MasterBedroom3,
+    alt: "Master Bedroom 3",
+    span: 1,
+  },
+  {
+    id: 18,
+    src: Gazebo1,
+    alt: "Gazebo 1",
+    span: 2,
+  },
+  {
+    id: 19,
+    src: Gazebo2,
+    alt: "Gazebo 2",
+    span: 2,
+    aspectRatio: "aspect-[2/3]"
+  },
+  {
+    id: 20,
+    src: Staircase1,
+    alt: "Staircase 1",
+    span: 1,
+  },
+  {
+    id: 21,
+    src: Staircase2,
+    alt: "Staircase 2",
+    span: 1,
+  },
+  {
+    id: 22,
+    src: Staircase3,
+    alt: "Staircase 3",
     span: 1,
   },
 ];

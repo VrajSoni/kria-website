@@ -23,9 +23,9 @@ const projectComponents: Record<
 > = {
   "1": lazy(() =>
     import(
-      "./Components/ProjectDetails/PujyaPark"
+      "./Components/ProjectDetails/HouseOfNarratives"
     ).then((module) => ({
-      default: module.PujyaPark,
+      default: module.HouseOfNarratives,
     })),
   ),
   "2": lazy(() =>
@@ -44,9 +44,9 @@ const projectComponents: Record<
   ),
   "4": lazy(() =>
     import(
-      "./Components/ProjectDetails/HouseOfNarratives"
+      "./Components/ProjectDetails/PujyaPark"
     ).then((module) => ({
-      default: module.HouseOfNarratives,
+      default: module.PujyaPark,
     })),
   ),
   "5": lazy(() =>
