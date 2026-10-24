@@ -1,12 +1,12 @@
 export function ContactUs() {
   return (
-    <div className="pt-20">
+    <div className="bg-[#f7f2ed] pt-20 pb-20">
       <div className="flex justify-center">
         <a
           href="https://drive.google.com/file/d/1TVFeXQNlbGkHp7wamDrXd5YKs3pyvi7M/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex w-[80%] items-center px-6 py-1 rounded-full border cursor-pointer hover:bg-[#ebddd1]"
+          className="bg-[#ffffff] flex w-[80%] items-center px-6 py-1 rounded-full border cursor-pointer hover:bg-[#ebddd1]"
         >
           <span className="text-lg font-medium text-center w-full flex items-center justify-center gap-2">
             Explore our work
@@ -31,15 +31,15 @@ export function ContactUs() {
       <div className="flex gap-16 px-[5%] pt-10 items-start">
         <div className="w-1/2">
           <h1 className="m-0 !text-3xl sm:!text-4xl md:!text-5xl">
-            Contact us
+            Get in touch
           </h1>
           <div className="pt-10">
             <div className="grid grid-cols-[40%_1fr] sm:grid-cols-[30%_1fr] justify-stretch">
               <p className="text-sm sm:text-lg">
-                Email
+                Founders
               </p>
               <p className="text-sm sm:text-lg">
-                ar.rinishajain@gmail.com
+                Ar. Rinisha Jain, Ar. Kriti Khandelwal
               </p>
             </div>
             <div className="grid grid-cols-[40%_1fr] sm:grid-cols-[30%_1fr] justify-stretch pt-5">

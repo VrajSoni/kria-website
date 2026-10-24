@@ -23,44 +23,44 @@ const projectComponents: Record<
 > = {
   "1": lazy(() =>
     import(
+      "./Components/ProjectDetails/DecentResidency"
+    ).then((module) => ({
+      default: module.DecentResidency,
+    })),
+  ),
+  "2": lazy(() =>
+    import(
       "./Components/ProjectDetails/HouseOfNarratives"
     ).then((module) => ({
       default: module.HouseOfNarratives,
     })),
   ),
-  "2": lazy(() =>
-    import(
-      "./Components/ProjectDetails/BhavitaPark"
-    ).then((module) => ({
-      default: module.BhavitaPark,
-    })),
-  ),
   "3": lazy(() =>
-    import(
-      "./Components/ProjectDetails/ShilpSolitaire"
-    ).then((module) => ({
-      default: module.ShilpSolitaire,
-    })),
-  ),
-  "4": lazy(() =>
     import(
       "./Components/ProjectDetails/PujyaPark"
     ).then((module) => ({
       default: module.PujyaPark,
     })),
   ),
+  "4": lazy(() =>
+    import(
+      "./Components/ProjectDetails/BhavitaPark"
+    ).then((module) => ({
+      default: module.BhavitaPark,
+    })),
+  ),
   "5": lazy(() =>
     import(
-      "./Components/ProjectDetails/ShilpSerene"
+      "./Components/ProjectDetails/ShilpSolitaire"
     ).then((module) => ({
-      default: module.ShilpSerene,
+      default: module.ShilpSolitaire,
     })),
   ),
   "6": lazy(() =>
     import(
-      "./Components/ProjectDetails/TheCourtyardHouse"
+      "./Components/ProjectDetails/ShilpSerene"
     ).then((module) => ({
-      default: module.TheCourtyardHouse,
+      default: module.ShilpSerene,
     })),
   ),
   "7": lazy(() =>
@@ -70,6 +70,13 @@ const projectComponents: Record<
       default: module.SiddhamCoolers,
     })),
   ),
+  "8": lazy(() =>
+    import(
+      "./Components/ProjectDetails/TheCourtyardHouse"
+    ).then((module) => ({
+      default: module.TheCourtyardHouse,
+    })),
+  )
 };
 
 const ProjectsPage = lazy(() =>
