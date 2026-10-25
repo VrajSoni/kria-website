@@ -11,14 +11,14 @@ const images: ProjectImage[] = [
     src: GroundFloorPlan,
     alt: "Ground Floor Plan",
     span: 2,
-      aspectRatio: "aspect-[4/3]"
+    aspectRatio: "aspect-[7/10]"
   },
   {
     id: 2,
     src: FirstFloorPlan,
     alt: "First Floor Plan",
     span: 2,
-    aspectRatio: "aspect-[4/3]"
+    aspectRatio: "aspect-[7/10]"
   }
 ];
 
